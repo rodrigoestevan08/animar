@@ -38,12 +38,12 @@ h1{
     background-color:white;
     border:1px solid black;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;    
-    animation:3s circulo infinite reverse;
+    animation:3s circulo linear infinite ;
 }
 .load{
     background-image: linear-gradient(to bottom, white, purple);
