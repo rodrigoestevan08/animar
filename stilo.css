@@ -57,7 +57,7 @@ h1{
     animation:3s circulo linear infinite;  
 }
 .h{
-    animation:3s h1 linear infinite alternate;
+    animation:2s h1 linear infinite alternate;
 }
 @keyframes circulo{
     0%{
@@ -74,6 +74,7 @@ h1{
     }
     50%{
         transform: scaleY(2);
+        color: wheat;
     }
     100%{
         transform: scaleY(3);
