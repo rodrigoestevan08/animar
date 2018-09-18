@@ -70,11 +70,13 @@ h1{
 @keyframes h1{
     0%{
         transform: scaleY(1);
+        color: whitesmoke;
     }
     50%{
         transform: scaleY(2);
     }
     100%{
         transform: scaleY(3);
+        color: purple;
     } 
 }
